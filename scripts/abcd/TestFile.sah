@@ -1,0 +1,64 @@
+
+/**
+* Typo
+* @param $Object - 
+* @param $Firstname - 
+* @paramobject Object.Lastname, Object.Email, Firstname
+* @datagen $Firstname {"type":"text","min-length":"4","max-length":"4","include-alphabet":"true"}
+* @datagen $Object.Lastname {"type":"text","min-length":"6","max-length":"6","include-alphabet":"true"}
+* @datagen $Object.Email {"type":"text","min-length":"5","max-length":"5","include-alphabet":"true"}
+*/
+function Typo($Firstname, $Object) {
+	_click(_link("My Account"));
+	_click(_link("Register"));
+	_setValue(_textbox("firstname"), $Object.Firstname);
+	_setValue(_textbox("lastname"), $Object.Lastname);
+	_setValue(_emailbox("email1"), $Object.Email);
+	_click(_div("content"));
+}
+
+/**
+* Abcdaa
+* @param $Firstname - 
+* @param $Lastname - 
+* @param $Email - 
+* @param $Email1 - 
+* @datagen $Firstname {"type":"text","min-length":"4","max-length":"4","include-alphabet":"true"}
+* @datagen $Lastname {"type":"text","min-length":"6","max-length":"6","include-alphabet":"true"}
+* @datagen $Email1 {"type":"text","min-length":"5","max-length":"5","include-alphabet":"true"}
+*/
+function Abcdaa($Firstname, $Lastname, $Email, $Email1) {
+	_click(_link("My Account"));
+	_click(_link("Register"));
+	_setValue(_textbox("firstname"), $Firstname);
+	_setValue(_textbox("lastname"), $Lastname);
+	_setValue(_emailbox("email1"), $Email1);
+	_click(_div("content"));
+}
+
+function Lksa($Asdd, $Ddea) {
+	_setValue(_textbox("firstname"), "abcd");
+	_click(_link("My Account"));
+	_click(_link("Register"));
+	_setValue(_textbox("firstname1"), "abcd");
+	_setValue(_textbox("lastname1"), "asdasd");
+	_setValue(_emailbox("email1"), "asdad");
+	_click(_div("content"));
+}
+
+function Bbb() {
+}
+
+/**
+* Lksasd
+* @param $Object - 
+* @paramobject Object.Firstname1, Object.Lastname1, Object.Email1
+*/
+function Lksasd($Object) {
+	_click(_link("My Account"));
+	_click(_link("Register"));
+	_setValue(_textbox("firstname1"), $Object.Firstname1);
+	_setValue(_textbox("lastname1"), $Object.Lastname1);
+	_setValue(_emailbox("email1"), $Object.Email1);
+	_click(_div("content"));
+}
