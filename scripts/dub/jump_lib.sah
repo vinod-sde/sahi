@@ -1,0 +1,31 @@
+function LogUserInfo($CustomerId, $Firstname, $Lastname, $Company, $City, $Country, $Email, $SubscriptionDate, $S) {
+	_log("CustomerId : " + $CustomerId);
+	_log("Firstname : " + $Firstname);
+	_log("Lastname : " + $Lastname);
+	_log("Company : " + $Company);
+	_log("City : " + $City);
+	_log("Country : " + $Country);
+	_log("Email : " + $Email);
+	_log("SubscriptionDate : " + $SubscriptionDate);
+}
+
+/**
+* Login
+* @param $Sdf - 
+*/
+function Login($Sdf) {
+	_setValue(_textbox("user"), "test");
+	_setValue(_password("password"), "secret");
+	_click(_submit("Login"));
+	_setValue(_password("password"), "secret");
+}
+
+/**
+* Logout
+* @param $Abcd - 
+*/
+function Logout($Abcd) {
+	_click(_button("Logout"));
+	_setValue(_password("password"), "secret");
+	_setValue(_password("password"), "secret");
+}

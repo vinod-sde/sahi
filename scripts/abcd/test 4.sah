@@ -1,0 +1,38 @@
+
+/**
+* specialcharacters
+*/
+function specialcharacters() {
+	_setValue(_textbox("full!name"), "!");
+	_setValue(_textbox("full@name"), "@");
+	_setValue(_textbox("full#name"), "#");
+	_setValue(_textbox("full$name"), "$");
+	_setValue(_textbox("full%name"), "%");
+	_setValue(_textbox("full^name"), "^");
+	_setValue(_textbox("full&name"), "&");
+	_setValue(_textbox("full*name"), "*");
+	_setValue(_textbox("full(name"), "(");
+	_setValue(_textbox("full)name"), ")");
+	_setValue(_textbox("full_name"), "_");
+	_setValue(_textbox("full-name"), "-");
+	_setValue(_textbox("full=name"), "=");
+	_setValue(_textbox("full+name"), "+");
+	_setValue(_textbox("full[name"), "[");
+	_setValue(_textbox("full]name"), "]");
+	_setValue(_textbox("full{name"), "{");
+	_setValue(_textbox("full}name"), "}");
+	_setValue(_textbox("full\name"), "\\");
+	_setValue(_textbox("full|name"), "|");
+	_setValue(_textbox("full`name"), "`");
+	_setValue(_textbox("full~name"), "~");
+	_setValue(_textbox("full:name"), ":");
+	_setValue(_textbox("full;name"), ";");
+	_setValue(_textbox("full\"name"), "\\\"");
+	_setValue(_textbox("full'name"), "'");
+	_setValue(_textbox("full<name"), "<");
+	_setValue(_textbox("full>name"), ">");
+	_setValue(_textbox("full?name"), "?");
+	_setValue(_textbox("full,name"), ",");
+	_setValue(_textbox("full.name"), ".");
+	_setValue(_textbox("full/name"), "/");
+}

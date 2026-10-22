@@ -1,0 +1,4 @@
+
+function Asdd() {
+	_setValue(_textbox("firstname"), "abcd");
+}

@@ -1,0 +1,33 @@
+
+function GoToRegPage() {
+	_click(_link("My Account"));
+	_click(_link("Register"));
+}
+
+function AddUserDetails() {
+	_setValue(_textbox("firstname"), "Priya");
+	_setValue(_textbox("lastname"), "Patil");
+	_setValue(_emailbox("email"), "priya+2708@example.com");
+	_setValue(_telephonebox("telephone"), "9876543210");
+	_setPassword(_password("password"), "MR4AGgQ=");
+	_setPassword(_password("confirm"), "MR4AGgQ=");
+	_check(_checkbox("agree"));
+	_click(_submit("Continue"));
+	_click(_link("My Account"));
+	_click(_link("Register"));
+	_setValue(_textbox("firstname"), "abcd");
+	_setValue(_textbox("lastname"), "asdasd");
+	_setValue(_emailbox("email"), "asdad");
+	_click(_div("content"));
+}
+
+function VerifyUser() {
+	_assertEqual("Your Account Has Been Created!", 	_getText(_heading1(0)));
+	_click(_link("Laptops & Notebooks"));
+	_click(_link("Windows (0)"));
+}
+
+function Logout() {
+	_click(_link("My Account"));
+	_click(_link("Logout"));
+}

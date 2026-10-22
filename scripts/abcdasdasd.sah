@@ -1,0 +1,68 @@
+
+function userloginasd() {
+	_click(_link("My Account"));
+	_click(_link("Register"));
+}
+/**
+* ondhu
+* @param $Firstname - 
+* @param $Lastname - 
+*/
+function ondhu($Firstname, $Lastname) {
+_setValue(_textbox("firstname"),$Firstname);
+_setValue(_textbox("lastname"),$Lastname);
+
+}
+/**
+* yeardu
+* @param $Email - 
+* @param $Telephone - 
+*/
+function yeardu($Email, $Telephone) {
+_setValue(_emailbox("email"),$Email);
+_setValue(_telephonebox("telephone"),$Telephone);
+
+}
+/**
+* mooru
+* @param $Firstname - 
+* @param $Lastname - 
+* @param $Email - 
+*/
+function mooru($Firstname, $Lastname, $Email) {
+_setValue(_textbox("firstname"),$Firstname);
+_setValue(_textbox("lastname"),$Lastname);
+_setValue(_emailbox("email"),$Email);
+
+}
+''
+function nalki($Firstname, $Lastname, $Email) {
+_click(_div("First Name"));
+_setValue(_textbox("firstname"),$Firstname);
+_setValue(_textbox("lastname"),$Lastname);
+_setValue(_emailbox("email"),$Email);
+
+}
+
+
+function hydhu($Firstname, $Lastname, $Email, $Telephone, $Search) {
+	_setValue(_textbox("firstname"),$Firstname);
+	_setValue(_textbox("lastname"),$Lastname);
+	_setValue(_emailbox("email"),$Email);
+	_setValue(_telephonebox("telephone"),$Telephone);
+	_setValue(_textbox("search"),$Search);
+	_setValue(_,"asd",asd);
+}
+/**
+* hdas
+* @param $Firstname - 
+* @param $Lastname - 
+* @param $Telephone - 
+*/
+function hdas($Firstname, $Lastname, $Telephone, $Password) {
+	_setValue(_textbox("firstname"), $Firstname);
+	_setValue(_textbox("lastname"), $Lastname);
+	_setValue(_telephonebox("telephone"), $Telephone);
+
+	_setPassword(_password("password"), "IA4KBw==");
+}

@@ -1,0 +1,3 @@
+_include("TestScriptNew_AR.sah");
+_setValue($_TEXTBOX_USER, "test");
+_setPassword($_PASSWORD_PASSWORD, "MgkKEQBU");

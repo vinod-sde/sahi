@@ -1,0 +1,4 @@
+
+/* C:/Users/Administrator/Desktop/sahi_installed/972/528/userdata/scripts/TestScriptNew.sah */
+var $_TEXTBOX_USER = _textbox("user");
+var $_PASSWORD_PASSWORD = _password("password");

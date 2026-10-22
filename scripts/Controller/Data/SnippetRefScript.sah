@@ -1,0 +1,2 @@
+_setValue(_textbox("user"), "test");
+_setPassword(_password("password"), "MgkKEQBU");
