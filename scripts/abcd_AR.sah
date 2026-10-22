@@ -1,0 +1,14 @@
+
+/* D:/GenAina/sahi_pro_g/userdata/scripts/testing.sah */
+var $_USER_TEXTBOX = _textbox("user");
+var $_PASSWORD_PASSWORD = _password("password");
+var $_SUBMIT_LOGIN = _submit("Login");
+var $_TEXTBOX_Q = _textbox("q");
+var $_TEXTBOX_Q1 = _textbox("q[1]");
+var $_TEXTBOX_Q2 = _textbox("q[2]");
+var $_BUTTON_ADD = _button("Add");
+var $_CELL_RS2001 = _cell("Rs.200[1]");
+var $_TEXTBOX_TOTAL = _textbox("total");
+var $_BUTTON_LOGOUT = _button("Logout");
+
+/* D:/GenAina/sahi_pro_g/userdata/scripts/asdasdasd.sah */
